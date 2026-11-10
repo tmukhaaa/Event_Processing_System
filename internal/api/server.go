@@ -73,7 +73,7 @@ func (s *Server) submitEvent(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if result.Conflict {
-		writeError(w, http.StatusConflict, "event_id_conflict", "event_id уже принят с другим содержимым")
+		writeError(w, http.StatusConflict, "event_id_conflic", "event_id уже принят с другим содержимым")
 		return
 	}
 	if result.Duplicate {
