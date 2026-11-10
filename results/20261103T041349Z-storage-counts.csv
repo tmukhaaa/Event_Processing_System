@@ -1,0 +1,4 @@
+events,duplicate_rate,event_rows,outbox_rows,payment_processed,analytics_processed
+1000,0,1000,1000,1000,1000
+1000,0.1,900,900,900,900
+1000,0.3,700,700,700,700

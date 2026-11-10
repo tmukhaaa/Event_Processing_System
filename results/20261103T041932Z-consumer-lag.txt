@@ -1,0 +1,12 @@
+consumer_group=payment-processor
+
+GROUP             TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                                                HOST            CLIENT-ID
+payment-processor payment-events  2          1218            1218            0               consumer@3cd6829201ea (github.com/segmentio/kafka-go)-2f380f32-e5a2-4418-850e-c490f70bffc2 /172.24.0.5     consumer@3cd6829201ea (github.com/segmentio/kafka-go)
+payment-processor payment-events  1          1214            1214            0               consumer@3cd6829201ea (github.com/segmentio/kafka-go)-2f380f32-e5a2-4418-850e-c490f70bffc2 /172.24.0.5     consumer@3cd6829201ea (github.com/segmentio/kafka-go)
+payment-processor payment-events  0          1185            1185            0               consumer@3cd6829201ea (github.com/segmentio/kafka-go)-2f380f32-e5a2-4418-850e-c490f70bffc2 /172.24.0.5     consumer@3cd6829201ea (github.com/segmentio/kafka-go)
+consumer_group=payment-analytics
+
+GROUP             TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                                                          HOST            CLIENT-ID
+payment-analytics payment-events  2          1218            1218            0               analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)-602253b6-a870-480a-87f4-82219031f221 /172.24.0.7     analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)
+payment-analytics payment-events  1          1214            1214            0               analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)-602253b6-a870-480a-87f4-82219031f221 /172.24.0.7     analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)
+payment-analytics payment-events  0          1185            1185            0               analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)-602253b6-a870-480a-87f4-82219031f221 /172.24.0.7     analytics-consumer@38591183e70c (github.com/segmentio/kafka-go)
